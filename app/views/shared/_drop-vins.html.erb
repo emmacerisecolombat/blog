@@ -1,0 +1,45 @@
+<div class="dropdown-container">
+  <header class="clearfix">
+    <h1 class="ml-16 py-2"> <%= name %> </h1>
+    <figure class="expand"><i class="fa fa-close"></i></figure>
+  </header>
+
+  <article>
+    <div class="article-inner">
+      <ul class="dotless mt-4 mb-12">
+        <% cafeterie = @cafes.where(product:"vins") %>
+        <% cafeterie.each do |cafe|  %>
+
+        <% if cafe.categorie == true %>
+          <% if cafe.title == "Rosés" %>
+            <li class="ml-16">
+              <div id="product-width" class="inline-block font-black ml-12"> <%= cafe.title %></div>
+            </li>
+          <% elsif cafe.title == "Rouges" %>
+            <li class="ml-16 mt-4">
+              <div id="product-width" class="inline-block font-black ml-12"> <%= cafe.title %></div>
+            </li>
+          <% elsif cafe.title == "Blancs" %>
+            <li class="ml-16 mt-4">
+              <div id="product-width" class="inline-block font-black ml-12"> <%= cafe.title %></div>
+            </li>
+          <% else %>
+            <li class="ml-16 mt-4">
+              <div id="product-width" class="inline-block font-black ml-12"> - <%= cafe.title %></div>
+            </li>
+          <% end %>
+        <% end %>
+
+        <% if (cafe.categorie == false) && (cafe.comment == false) %>
+          <li class="ml-16">
+            <div id="product-width" class="inline-block"> <%= cafe.name %> </div>
+            <div class="inline-block ml-12"> <%= cafe.prix %> </div>
+          </li>
+        <% end %>
+
+        <%end %>
+      </ul>
+    </div>
+  </article>
+</div>
+

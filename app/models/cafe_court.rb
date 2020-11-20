@@ -1,0 +1,4 @@
+class CafeCourt < ApplicationRecord
+
+
+end

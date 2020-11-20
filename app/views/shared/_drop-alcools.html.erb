@@ -1,0 +1,43 @@
+<div class="dropdown-container">
+  <header class="clearfix">
+    <h1 class="ml-12 py-2"> <%= name %> </h1>
+    <figure class="expand"><i class="fa fa-close"></i></figure>
+  </header>
+  <article>
+    <div class="article-inner mb-12">
+      <ul class="dotless ml-12 mt-10">
+        <% alcools = @cafes.where(product:"alcools") %>
+        <% alcools.each do |cafe|  %>
+
+          <% if cafe.name == "Wyborowa Vodka 4cl" %>
+            <li>
+              <div id="product-width" class="inline-block ml-12 mt-4"> <%= cafe.name %> </div>
+              <div class="inline-block ml-12"> <%= cafe.prix %> </div>
+             </li>
+          <% elsif cafe.name == "Rhum Havana 3 ans 4cl" %>
+            <li>
+              <div id="product-width" class="inline-block ml-12 mt-4"> <%= cafe.name %> </div>
+              <div class="inline-block ml-12"> <%= cafe.prix %> </div>
+             </li>
+          <% elsif cafe.name == "Whisky Ballantines 4cl" %>
+            <li>
+              <div id="product-width" class="inline-block ml-12 mt-4"> <%= cafe.name %> </div>
+              <div class="inline-block ml-12"> <%= cafe.prix %> </div>
+             </li>
+          <% elsif cafe.name == "Get 27 4cl" %>
+            <li>
+              <div id="product-width" class="inline-block ml-12 mt-4"> <%= cafe.name %> </div>
+              <div class="inline-block ml-12"> <%= cafe.prix %> </div>
+             </li>
+          <% else %>
+            <li>
+              <div id="product-width" class="inline-block ml-12"> <%= cafe.name %> </div>
+              <div class="inline-block ml-12"> <%= cafe.prix %> </div>
+             </li>
+          <% end %>
+
+        <% end %>
+      </ul>
+    </div>
+  </article>
+</div>

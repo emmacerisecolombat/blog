@@ -1,0 +1,21 @@
+@import "bootstrap/scss/bootstrap";
+@import "components/index";
+
+body {
+  background-color: #0b0d92;
+}
+
+h1 {
+  font-family: 'Racing Sans One', cursive;
+  font-size: 65px !important;
+}
+
+li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px !important;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px !important;
+}
