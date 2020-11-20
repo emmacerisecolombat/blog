@@ -364,6 +364,9 @@ CafeCourt.create(product: 'cocktails', name: 'Long Island',
 CafeCourt.create(product: 'cocktails', name: 'Cuba Libre',
                     prix: '10,00€', categorie: false, comment: false)
 
+CafeCourt.create(product: 'cocktails', name: 'Piña Colada',
+                    prix: '10,00€', categorie: false, comment: false)
+
 CafeCourt.create(product: 'cocktails', name: 'Moscow Mule',
                     prix: '10,00€', categorie: false, comment: false)
 
