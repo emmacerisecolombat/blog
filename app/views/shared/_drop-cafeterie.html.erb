@@ -1,6 +1,6 @@
 <div class="dropdown-container">
   <header class="clearfix">
-    <h1 class="ml-16 py-2"> <%= name %> </h1>
+    <h1 id="case-title" class="ml-16 py-2"> <%= name %> </h1>
     <figure class="expand"><i class="fa fa-close"></i></figure>
   </header>
 
@@ -28,7 +28,7 @@
         <% end %>
         <% if (cafe.comment == true) && (cafe.categorie == false) %>
           <li class="ml-16">
-              <div id="product-width" class="inline-block ml-2"> - <%= cafe.name %> </div>
+              <div id="product-width" class="inline-block ml-2"> <%= cafe.name %> </div>
               <div id="product-width-descri" class="inline-block ml-4 text-2xl"> <%= cafe.description %> </div>
               <div class="inline-block ml-12"> <%= cafe.prix %> </div>
           </li>
