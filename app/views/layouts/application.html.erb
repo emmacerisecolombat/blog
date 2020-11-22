@@ -3,7 +3,6 @@
   <head>
     <title>Café Court - Carte</title>
     <meta name="description" content="Carte officielle du Café Court, rue de la Monnaie à Lyon."/>
-    <link rel="apple-touch-icon" sizes="57x57" href="/fav_icons/favicon.ico">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -21,6 +20,7 @@
     <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 
+    <%= favicon_link_tag asset_path('favicon.ico') %>
   </head>
 
   <body>
