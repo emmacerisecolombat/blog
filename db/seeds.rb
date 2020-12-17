@@ -186,7 +186,7 @@ CafeCourt.create(product: 'alcools', name: 'Beefeater Gin 4cl',
                     prix: '8,00€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'alcools', name: 'Bombay Gin 4cl',
-                    prix: '8,00€', categorie: false, comment: false)
+                    prix: '9,00€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'alcools', name: 'Monkey 47 Gin 4cl',
                     prix: '12,00€', categorie: false, comment: false)
@@ -195,7 +195,7 @@ CafeCourt.create(product: 'alcools', name: 'Wyborowa Vodka 4cl',
                     prix: '8,00€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'alcools', name: 'Grey Goose 4cl ',
-                    prix: '8,00€', categorie: false, comment: false)
+                    prix: '10,00€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'alcools', name: 'Vodka Get 8cl',
                     prix: '12,00€', categorie: false, comment: false)
@@ -204,7 +204,7 @@ CafeCourt.create(product: 'alcools', name: 'Rhum Havana 3 ans 4cl',
                     prix: '8,00€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'alcools', name: 'Rhum Havana Especial 4cl',
-                    prix: '8,00€', categorie: false, comment: false)
+                    prix: '9,00€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'alcools', name: 'Whisky Ballantines 4cl',
                     prix: '8,00€', categorie: false, comment: false)
