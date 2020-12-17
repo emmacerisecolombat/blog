@@ -128,23 +128,23 @@ CafeCourt.create(product: 'aperos', name: 'Panaché 25cl ',
                 prix: '3,70€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'aperos', name: 'Panaché 50cl ',
-                prix: '7,50€', categorie: false, comment: false)
+                prix: '7,00€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'aperos', name: 'Monaco 25cl',
                 prix: '4,00€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'aperos', name: 'Monaco 50cl ',
-                prix: '7,00€', categorie: false, comment: false)
+                prix: '7,50€', categorie: false, comment: false)
 
 # -------------- Product: Bieres --------------
 # ------------------------------------------------
 # ------------------------------------------------
 
 CafeCourt.create(product: 'beers', name: 'Corona 35,5cl ',
-                    prix: '5€', categorie: false, comment: false)
+                    prix: '5,00€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'beers', name: 'Desperados 33cl',
-                    prix: '5€', categorie: false, comment: false)
+                    prix: '5,00€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'beers', title: 'Blondes', categorie: true, comment: false)
 
@@ -225,13 +225,13 @@ CafeCourt.create(product: 'alcools', name: 'Jagerbomb 4cl',
                     prix: '7,00€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'alcools', name: 'Shooter',
-                    prix: '3€', categorie: false, comment: false)
+                    prix: '3,00€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'alcools', name: 'Tiki Shot',
                     prix: '2,50€', categorie: false, comment: false)
 
 CafeCourt.create(product: 'alcools', name: 'Mètre shooter',
-                    prix: '25€', categorie: false, comment: false)
+                    prix: '25,00€', categorie: false, comment: false)
 
 # -------------- Product: Vins --------------
 # ------------------------------------------------
@@ -264,7 +264,7 @@ CafeCourt.create(product: 'vins', name: 'Côte du Rhône (Rouge)',
 CafeCourt.create(product: 'vins', name: 'Syrah (Rouge)',
                     prix: '5,00€', categorie: false, comment: false)
 
-CafeCourt.create(product: 'vins', title: 'A la Fillette (25cl)',
+CafeCourt.create(product: 'vins', title: 'À la Fillette (25cl)',
                     categorie: true, comment: false)
 
 CafeCourt.create(product: 'vins', name: 'Viognier',
@@ -404,7 +404,39 @@ CafeCourt.create(product: 'digeo', name: 'Whisky Glengoyne',
 CafeCourt.create(product: 'digeo', name: 'Cognac HINE',
                     prix: '10,00€', categorie: false, comment: false)
 
+# -------------- Product: Champagnes --------------
+# ------------------------------------------------
+# ------------------------------------------------
 
+CafeCourt.create(product: 'champagne', name: 'À la coupe',
+                    categorie: true, comment: false)
+
+CafeCourt.create(product: 'champagne', name: 'Coupe prosecco',
+                    prix: '6,00€', categorie: false, comment: false)
+
+CafeCourt.create(product: 'champagne', name: 'Coupe Champagne',
+                    prix: '10,00€', categorie: false, comment: false)
+
+CafeCourt.create(product: 'champagne', name: 'En bouteille',
+                    categorie: true, comment: false)
+
+CafeCourt.create(product: 'champagne', name: 'Bouteille prosecco',
+                    prix: '30,00€', categorie: false, comment: false)
+
+CafeCourt.create(product: 'champagne', name: 'Bouteille Moët & Chandon',
+                    prix: '70,00€', categorie: false, comment: false)
+
+CafeCourt.create(product: 'champagne', name: 'Bouteille Ruinart Brut',
+                    prix: '90,00€', categorie: false, comment: false)
+
+CafeCourt.create(product: 'champagne', name: 'Bouteille Ruinart Blanc de Blanc',
+                    prix: '120,00€', categorie: false, comment: false)
+
+CafeCourt.create(product: 'champagne', name: 'Magnum',
+                    categorie: true, comment: false)
+
+CafeCourt.create(product: 'champagne', name: 'Magnum Ruinart Blanc de Blanc',
+                    prix: '260,00€', categorie: false, comment: false)
 
 
 # CafeCourt.create(product: 'aperos', name: '',
