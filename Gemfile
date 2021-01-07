@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.6'
-
+gem 'autoprefixer-rails', '~> 7.1', '>= 7.1.6'
 gem 'amazing_print', '~> 1.2', '>= 1.2.2'
 gem 'simple_form'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
